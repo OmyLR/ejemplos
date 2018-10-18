@@ -48,6 +48,10 @@
             <td>${fn:escapeXml(param["foo"])}&nbsp;</td>
           </tr>
           <tr>
+            <td>\${param["foo"]}</td>
+            <td>${fn:escapeXml(param["foo"])}&nbsp;</td>
+          </tr>
+          <tr>
             <td>\${my:reverse(param["foo"])}</td>
             <td>${my:reverse(fn:escapeXml(param["foo"]))}&nbsp;</td>
           </tr>

@@ -72,6 +72,10 @@
             <td>${fn:escapeXml(param["foo"])}&nbsp;</td>
           </tr>
           <tr>
+            <td>\${pageContext.session.id}</td>
+            <td>${fn:escapeXml(pageContext.session.id)}&nbsp;</td>
+          </tr>
+          <tr>
             <td>\${header["host"]}</td>
             <td>${fn:escapeXml(header["host"])}&nbsp;</td>
           </tr>
